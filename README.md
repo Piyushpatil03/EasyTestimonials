@@ -17,9 +17,9 @@ See the Video - https://github.com/user-attachments/assets/591fbda2-07ea-46b2-a2
 #### 5. Dynamically generating unique landing page for each company to collect the testimonials from their customers and real-time updates of all testimonials on the company dashboard
 <img src="https://github.com/user-attachments/assets/b9b1c9df-f8f2-4278-913e-acc5b639be14" alt="profile_demo" width="500" />
 
- > ### Redis Database for caching favorites data
+ > ### Redis Database for caching favorite data
 
-#### 6. Integrated Redis caching to reduce latency to get the favorites testimonials on the company's page using the HTML embed code copy paste.
+#### 6. Integrated Redis caching to reduce latency to get the favorites testimonials on the company's page using the HTML embed code copy paste and created dynamic layout designs of testimonials to insert into the website.
 ![Screenshot 2024-08-23 014743](https://github.com/user-attachments/assets/664a26a8-fa14-4145-b9d8-3ae74bcd68b4)
 
 
