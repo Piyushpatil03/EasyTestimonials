@@ -1,0 +1,62 @@
+type Query{
+    info : String!
+    profile : User!
+    comp (username : String!) : User
+    testi : User!
+    embed(username : String!) : [Testimonial]
+    home : User!
+    search(searchTerm : String!) : [Testimonial]
+}
+
+type Mutation {
+    Signup (name : String!, email : String!, password : String!) : AuthPayload
+    Login (email: String!, password: String!) : AuthPayload
+    Update (company_name : String!, website : String!, desc : String!, service: String!) : User
+    addTestimonial (username : String!, customer_name : String!, designation : String!, city : String!, org_name: String!, ratings: Float!, short_testimonial: String!, complete_testimonial: String!) : User 
+    addLikes (username : String!, actions : [LikedInputs!]!) : Response!
+}
+
+type AuthPayload {
+    token : String
+    user : User
+}
+
+type User {
+    name : String!
+    email : String!
+    password : String!
+    username : String
+    company : Company
+    testimonials: [Testimonial]
+}
+
+type Company {
+    company_name : String!
+    website : String!
+    desc : String!
+    service : String!
+}
+
+type Testimonial { 
+    _id : String!
+    customer_name : String!
+    designation : String!
+    city : String!
+    org_name : String!
+    ratings : Float!
+    short_testimonial : String!
+    complete_testimonial : String!
+    isLiked : Boolean
+    createdAt: String
+    updatedAt: String
+}
+
+input LikedInputs {
+    _id : String!
+    isLiked : Boolean!
+}
+
+type Response { 
+    success: Boolean!
+    message: String!
+}

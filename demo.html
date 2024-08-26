@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color: red;">Hello World!</h1>
+<p>This is a paragraph.</p>
+
+<!-- <script type="text/javascript" src="http://localhost:3000/js/iframeResizer.js"></script> -->
+
+<iframe id="testimonial-widget" 
+        src="http://localhost:3000/embed/TataPowers422?theme=light&card=carousel" 
+        frameborder="0" 
+        scrolling="no" 
+        width="100%">
+</iframe>
+<script>
+  window.addEventListener("message", (event) => {
+    if (event.data && event.data.height) {
+      document.getElementById("testimonial-widget").style.height = event.data.height + "px";
+    }
+  });
+</script>
+
+<!-- <script type="text/javascript">
+  iFrameResize({log: false, checkOrigin: false}, "#testimonial-widget");
+</script> -->
+
+</body>
+</html>
