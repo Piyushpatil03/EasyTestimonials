@@ -5,3 +5,6 @@
 
 3. Used MongoDB aggregation pipelines and Atlas Vector Search to power advanced search capabilities with real-time debouncing. Integrated Redis for efficient caching, drastically reducing latency and enhancing user experience by delivering instant search results and faster page loads.
 
+![Screenshot (178)](https://github.com/user-attachments/assets/1e19465b-61a9-4c26-b099-faf103f77e7e)
+https://github.com/user-attachments/assets/591fbda2-07ea-46b2-a26b-c738b3b5ccb6
+
