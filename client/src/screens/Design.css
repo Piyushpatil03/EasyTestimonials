@@ -1,0 +1,43 @@
+.test_container{
+    padding-left: 30px;
+}
+
+.head_test {
+    font-size: 28px;
+    font-family: INTER;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 0;
+}
+
+.p_test{
+    font-size: 16px;
+    font-family: INTER;
+    color: rgb(113, 113, 113);
+    margin: 10px 0;
+}
+
+.h3_design{
+    text-align: left;
+    font-family: INTER;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: rgb(143, 0, 0);
+    font-size: 26px;
+}
+
+.div_grid{
+    margin: 50px 20px;
+    margin-top: 20px;
+    display: flex;
+    gap: 50;
+    justify-content: space-between;
+
+}
+
+.theme_image{
+    width: 570px;
+    border: 1px solid blanchedalmond;
+    cursor: pointer;
+}

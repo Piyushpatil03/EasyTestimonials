@@ -1,0 +1,23 @@
+.filters_container {
+  margin: 15px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(183, 183, 183);
+}
+
+.h3{
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+.radio{
+    margin: 15px;
+    margin-left: 0px;
+}
+
+.radio_label{
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 400;
+}

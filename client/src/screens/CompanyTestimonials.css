@@ -1,0 +1,77 @@
+.first_container{
+    padding: 50px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.second_container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.third_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left_div{
+    width: 30%; 
+    text-align:right
+}
+
+.right_div{
+    width: 70%;
+    text-align: left;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+
+.company_image_2{
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+}
+
+.h2_test{
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 0;
+
+}
+
+.link_test{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.link_logo{
+    padding: 5px;
+}
+
+.about_text{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color:rgb(134, 76, 0);
+}
+
+.info_text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-top: 22px;
+    line-height: 25px;
+}
+
+.service_text{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 22px;
+}

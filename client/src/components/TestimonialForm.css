@@ -1,0 +1,53 @@
+.textarea{
+    width: 400px;
+    height: 150px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: INTER;
+}
+
+.input{
+    width: 400px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: INTER;
+}
+
+.two_inputs{
+    display: flex;
+    gap: 10px;
+}
+
+.input-2{
+    width: 180px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: INTER;
+    margin-top: 10px;
+    margin-left: 10px
+}
+
+.label{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Inter;
+    margin: 10px;
+}
+
+.save{
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    background-color:rgb(134, 76, 0);
+    color: #fff;
+    font-family: INTER;
+    font-size: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}

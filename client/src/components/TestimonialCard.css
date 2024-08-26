@@ -1,0 +1,23 @@
+.card_container{
+    margin: 10px 0px;
+    padding: 20px;
+    background-color: rgb(255, 250, 243);
+    font-family: INTER;
+    line-height: 22px;
+    border-radius: 20px
+}
+
+.icon_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_name{
+    padding-top: 20px;
+    text-align: right;
+    font-size: 15px;
+}
+
+.heart_icon{
+    cursor: pointer;
+}

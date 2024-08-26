@@ -1,0 +1,65 @@
+.div_container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.sidebar{
+    width: 250px;
+    background-color:antiquewhite;
+    top: 0;
+    position: sticky;
+    height: 100vh;
+    font-family: INTER;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.outlet{
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.head {
+    margin-top: 18px;
+    font-family: Macondo;
+    font-size: 26px;
+    font-weight: 700;
+    padding-left: 15px;
+    color:rgb(188, 14, 14);
+}
+
+.head_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+/* .navList{
+    padding-left: 10px;
+} */
+
+.minimize{
+    padding-top: 20px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.emoji_start{
+    position: block;
+    margin: 20px 20px;
+}
+
+.emoji_end{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}

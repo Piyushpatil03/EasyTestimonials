@@ -1,0 +1,141 @@
+.home_container{
+    padding-left: 30px;
+}
+
+.first_home{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_h2 {
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 600;
+    color: black;
+}
+
+.home_div_link{
+    margin-top: 30px;
+}
+
+.home_link{
+    padding: 20px;
+    border: 1px solid rgb(255, 225, 180);
+    border-radius: 25px;
+    font-family: Inter;
+    cursor: pointer;
+    background-color: rgba(255, 235, 205, 0.148);
+}
+
+.icon{
+    padding-left: 10px;
+
+}
+
+.span_icon{
+    padding: 20px;
+    cursor: pointer;
+}
+
+.home_h3{
+    font-size: 22px;
+    font-family: Inter;
+    font-weight: 600;
+    color: rgb(120, 0, 0);
+}
+
+.home_testi_div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.headline_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.home_testi{
+    padding: 24px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px blanchedalmond;
+    border-radius: 15px;
+}
+
+.short_p{
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+.complete_p{
+    font-size: 14px;
+    font-family: Inter;
+    color: rgb(105, 105, 105);
+    line-height: 22px;
+}   
+
+.home_btn{
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Inter;
+    cursor: pointer;
+    box-shadow: 0 2px 4px blanchedalmond;
+    border: 1px solid #ddd;
+    background-color: antiquewhite;
+    text-decoration: none;
+    color: rgb(120, 0, 0);
+}
+
+.home_grid_div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px
+}
+
+.home_info{
+    font-size: 14px;
+    font-family: Inter;
+    line-height: 22px;
+    color: grey;
+}
+
+.no_profile_div{
+    font-size: 16px;
+    font-family: Inter;
+    line-height: 22px;
+    color: black;
+    padding: 30px;
+    margin: 10px 30%;
+    border: 1px solid rgb(255, 170, 44);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.profile_btn{
+    font-size: 14px;
+    font-family: Inter;
+    padding: 10px 15px;
+    border: 2px solid rgb(75, 75, 75);
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    background-color: antiquewhite;
+}
+
+.process_div{
+    font-size: 16px;
+    font-family: Inter;
+    line-height: 22px;
+    color: black;
+    padding: 30px;
+    margin: 10px 25%;
+    border: 1px solid rgb(255, 170, 44);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
